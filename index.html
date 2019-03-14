@@ -8,8 +8,48 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+
+  <section>
+    <div>
+      <h1>Want to go to Mars?</h1>
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+
+      <form class="push-0" method="POST" action="https://formspree.io/step0195@algonquinlive.com">
+        <fieldset class="push">
+          <legend>Personal details</legend>
+          <input id="email" type="name" required>
+          <label for="name">Name</label>
+          <input id="age" type="age" name="age" required>
+          <label for="age">Age</label>
+          <input id="email" type="email" name="email" required>
+          <label for="email">Email</label>
+          <select id="subject" name="_subject">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly strong</option>
+            <option>A little couch-potato-y</option>
+          </select>
+          <label for="subject">Physical fitness</label>
+          <textarea id="address" name="address" required></textarea>
+          <label for="address">Address</label>
+        </fieldset>
+        <fieldset class="push">
+          <legend>Mission statement</legend>
+          <textarea id="subject" name="subject"></textarea>
+          <label for="subject">Why do you want to go to Mars?</label>
+        </fieldset>
+
+        <div class="push">
+          <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+        </div>
+
+        <input type="hidden" name="_subject" value="Request to join the mission">
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>
