@@ -20,36 +20,38 @@
       <form class="push-0" method="POST" action="https://formspree.io/step0195@algonquinlive.com">
         <fieldset class="push">
           <legend>Personal details</legend>
-          <input id="email" type="name" required>
           <label for="name">Name</label>
-          <input id="age" type="age" name="age" required>
+          <input id="email" type="name" required>
           <label for="age">Age</label>
-          <input id="email" type="email" name="email" required>
+          <input id="age" type="age" name="age" required>
           <label for="email">Email</label>
-          <select id="subject" name="_subject">
+          <input id="email" type="email" name="email" required>
+          <label for="subject">Physical fitness</label>
+          <select class="fitness"id="subject" name="_subject">
             <option>Super-human</option>
             <option>Fit as a fiddle</option>
             <option>Not terribly strong</option>
             <option>A little couch-potato-y</option>
           </select>
-          <label for="subject">Physical fitness</label>
-          <textarea id="address" name="address" required></textarea>
           <label for="address">Address</label>
+          <textarea class="text-field"id="address" name="address" required></textarea>
         </fieldset>
         <fieldset class="push">
           <legend>Mission statement</legend>
-          <textarea id="subject" name="subject"></textarea>
           <label for="subject">Why do you want to go to Mars?</label>
+          <textarea id="subject" name="subject"></textarea>
         </fieldset>
 
         <div class="push">
-          <button class="btn btn-light mega" type="submit">Register for the trip!</button>
+          <button class="btn mega" type="submit">Register for the trip!</button>
         </div>
 
         <input type="hidden" name="_subject" value="Request to join the mission">
       </form>
     </div>
   </section>
+
+  <!-- Remember to sumbit the form first before markbot -->
 
 </body>
 </html>

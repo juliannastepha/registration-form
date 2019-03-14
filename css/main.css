@@ -1,0 +1,15 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+section {
+  padding: 1rem;
+}
+
+input {
+  padding-bottom: .5rem;
+}
+
+button {
+  text-align: center;
+}
