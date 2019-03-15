@@ -1,15 +1,32 @@
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+  color: #000;
 }
 
 section {
-  padding: 1rem;
-}
-
-input {
-  padding-bottom: .5rem;
+  background-color: #fff;
 }
 
 button {
-  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  border: 1px solid #000;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+legend {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .psh {
+    padding-right: .5rem;
+  }
+
 }
