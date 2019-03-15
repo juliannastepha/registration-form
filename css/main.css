@@ -19,8 +19,8 @@ h1 {
   border-left: none;
 }
 
-legend {
-  padding-bottom: 1rem;
+.padd {
+  padding-bottom: 1em;
 }
 
 @media only screen and (min-width: 60em) {
